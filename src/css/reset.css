@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+  color: var(--fs-01);
+}
+
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+button {
+  cursor: pointer;
+  color: inherit;
+  border: none;
+  transition: 0.2s ease-in-out;
+}

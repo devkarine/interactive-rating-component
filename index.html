@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/reset.css" />
+    <link rel="stylesheet" href="src/css/variable.css" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <title>Interactive Rating Component</title>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="wrapper-card" id="wrapper-card">
+          <div>
+            <img src="src/img/icon-star.svg" alt="estrela laranja" />
+          </div>
+
+          <div class="note">
+            <h2>How did we do?</h2>
+            <p>
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
+          </div>
+
+          <ul class="rating-list">
+            <li><button class="btn">1</button></li>
+            <li><button class="btn">2</button></li>
+            <li><button class="btn">3</button></li>
+            <li><button class="btn">4</button></li>
+            <li><button class="btn">5</button></li>
+          </ul>
+
+          <button type="submit" class="submit" id="submit">SUBMIT</button>
+        </div>
+
+        <div class="wrapper-thanks visibility" id="wrapper-thanks">
+          <div class="screen">
+            <img
+              src="src/img/illustration-thank-you.svg"
+              alt="tela ilustrativa"
+            />
+          </div>
+
+          <small>You selected out <span id="rating"> 1</span> of 5.</small>
+
+          <div class="thank">
+            <h2>Thank you!</h2>
+            <p>
+              We appreciate you taking the time to give a rating. If you ever
+              need more support, don’t hesitate to get in touch!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Challenge by Frontend Mentor. Coded by
+        <a href="https://github.com/devkarine">Karine Pereira</a>
+      </p>
+    </footer>
+
+    <script src="src/js/script.js"></script>
+  </body>
+</html>
